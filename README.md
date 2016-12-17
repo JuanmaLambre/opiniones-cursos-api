@@ -17,7 +17,10 @@ Things you may want to cover:
 * Ruby 2.3
 * SQLite3
 
-To install Rails you can simply execute ```gem install rails```. Check that installation was successful by running ```rails --version```
+To install Rails you can simply execute  
+```gem install rails```  
+Check that installation was successful by running  
+```rails --version```  
 
 
 ## Rails "Getting Started"
