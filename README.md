@@ -22,22 +22,23 @@ To install Rails you can simply execute ```gem install rails```. Check that inst
 
 ## Rails "Getting Started"
 
-[Here](http://guides.rubyonrails.org/getting_started.html) you can find the official starting tutorial for Ruby on Rails. You can also take a look at Michael Hartl's ["Ruby on Rails Tutorial"](https://www.railstutorial.org/book). The book offers a detailed tutorial for building a whole application from scratch. It is available online for free.
+[Here](http://guides.rubyonrails.org/getting_started.html) you can find the official starting tutorial for Ruby on Rails.  
+You can also take a look at Michael Hartl's ["Ruby on Rails Tutorial"](https://www.railstutorial.org/book). The book offers a detailed tutorial for building a whole application from scratch. It is available online for free.
 
 
 ## Database creation
 
-Install project dependencies:
+Install project dependencies:  
 ```bundle install```  
 
-And then create the database:
+And then create the database:  
 ```rake db:create```  
 
-Finally, migrate the database
+Finally, migrate the database  
 ```rake db:migrate```  
 
-To populate the database run
-```rake db:seed```
+To populate the database run  
+```rake db:seed```  
 Note that this will execute db/seeds.rb
 
 
@@ -48,7 +49,7 @@ To insert a breakpoint you must invoke ```byebug``` at desired line. This will o
 
 ## Testing
 
-To run the tests execute
-```rake test```
+To run the tests execute  
+```rake test```  
 
 For more information consult the [official testing guide](http://guides.rubyonrails.org/testing.html)
