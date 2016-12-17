@@ -19,6 +19,7 @@ Things you may want to cover:
 
 To install Rails you can simply execute  
 ```gem install rails```  
+
 Check that installation was successful by running  
 ```rails --version```  
 
@@ -42,7 +43,7 @@ Finally, migrate the database
 
 To populate the database run  
 ```rake db:seed```  
-Note that this will execute db/seeds.rb
+_(Note that this will execute db/seeds.rb)_
 
 
 ## Debugging
