@@ -17,7 +17,7 @@ Things you may want to cover:
 * Ruby 2.3
 * SQLite3
 
-To install Rails you can simply execute ´´´gem install rails´´´. Check that installation was successful by running ´´´rails --version´´´
+To install Rails you can simply execute ```gem install rails```. Check that installation was successful by running ```rails --version```
 
 
 ## Rails "Getting Started"
@@ -28,27 +28,27 @@ To install Rails you can simply execute ´´´gem install rails´´´. Check tha
 ## Database creation
 
 Install project dependencies:
-´´´bundle install´´´  
+```bundle install```  
 
 And then create the database:
-´´´rake db:create´´´  
+```rake db:create```  
 
 Finally, migrate the database
-´´´rake db:migrate´´´  
+```rake db:migrate```  
 
 To populate the database run
-´´´rake db:seed´´´
+```rake db:seed```
 Note that this will execute db/seeds.rb
 
 
 ## Debugging
 
-To insert a breakpoint you must invoke ´´´byebug´´´ at desired line. This will open a debugging console where the server is running
+To insert a breakpoint you must invoke ```byebug``` at desired line. This will open a debugging console where the server is running
 
 
 ## Testing
 
 To run the tests execute
-´´´rake test´´´
+```rake test```
 
 For more information consult the [official testing guide](http://guides.rubyonrails.org/testing.html)
